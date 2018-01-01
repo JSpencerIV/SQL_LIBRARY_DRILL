@@ -8,8 +8,6 @@ USE db_Library
 GO
 
 
-
-
 --DROP TABLE PUBLISHER;
 
 
@@ -72,11 +70,7 @@ CREATE TABLE BOOK_COPIES (
 
 
 
-
 SELECT * FROM BOOKS
-
-
-
 
 
 
@@ -124,7 +118,7 @@ SELECT * FROM BOOKS
 INSERT INTO BOOK_AUTHORS
 	(Bookid,AuthorName)
 	VALUES
-	(1,'Antoine De Saint-Exupéry'),
+	(1,'Antoine De Saint-ExupÃ©ry'),
 	(2,'Stephen King'),
 	(3,'Harper Lee'),
 	(4,'J.K. Rowling'),	
@@ -134,7 +128,7 @@ INSERT INTO BOOK_AUTHORS
 	(8,'Jane Austen'),
 	(9,'E.B. White'),
 	(10,'Frances Hodgson Burnett'),
-	(11,'Antoine De Saint-Exupéry'),
+	(11,'Antoine De Saint-ExupÃ©ry'),
     (12,'Stephen King'),
 	(13,'Harper Lee'),
 	(14,'J.K. Rowling'),	
